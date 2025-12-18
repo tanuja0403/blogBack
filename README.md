@@ -66,34 +66,6 @@ Password Security: bcrypt
 
 Environment Management: dotenv
 
-📁 Project Structure
-blog-backend/
-│
-├── prisma/
-│   ├── schema.prisma
-│   └── dev.db
-│
-├── src/
-│   ├── controllers/
-│   │   ├── user.controller.js
-│   │   ├── post.controller.js
-│   │   └── comment.controller.js
-│   │
-│   ├── routes/
-│   │   ├── user.routes.js
-│   │   ├── post.routes.js
-│   │   └── comment.routes.js
-│   │
-│   ├── middlewares/
-│   │   └── auth.middleware.js
-│   │
-│   ├── prismaClient.js
-│   └── app.js
-│
-├── .env
-├── package.json
-└── README.md
-
 ⚙️ Setup & Installation
 1️⃣ Clone the Repository
 git clone <repository-url>
